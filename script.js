@@ -197,3 +197,13 @@ function leapYear(year) {
 //   result.innerHTML = num1.value / num2.value;
 //   console.log(result.innerHTML);
 // }
+// function celsiusToF(celsius) {
+//   let t = (celsius * 9) / 5 + 32;
+//   console.log(t);
+// }
+// celsiusToF(120);
+// function farToCel(far) {
+//   let t = ((far - 32) * 5) / 9;
+//   console.log(t);
+// }
+// farToCel(248);
