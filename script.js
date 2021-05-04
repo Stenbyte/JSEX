@@ -138,7 +138,7 @@ function rotate(stringI) {
 // rotate("w3resource");
 
 let word = document.getElementById("test");
-console.log(word);
+
 function rot(stringI) {
   let text = () => {
     stringI = word.innerHTML = stringI.slice(1) + stringI[0];
@@ -148,3 +148,52 @@ function rot(stringI) {
   setTimeout(() => clearInterval(i), 10000);
 }
 // rot("w3resource");
+function leapYear(year) {
+  if (year % 4 === 0 || year % 100 === 0 || year % 400 === 0)
+    return console.log(`Leap year`);
+  else console.log(`Not a leap year`);
+}
+
+// leapYear(2000);
+// leapYear(2020);
+// leapYear(2002);
+// leapYear(2024);
+// for (let year = 1987; year <= 2050; year++) {
+//   let data = new Date(year, 0, 1);
+//   if (data.getDay() === 0) {
+//     console.log(data.getFullYear().toString(), `Yes sunday`);
+//   }
+// }
+// console.log(new Date().getDate());
+// console.log(new Date().getDay());
+// function random() {
+//   let num = prompt("Enter your number");
+//   if (Math.floor(Math.random() * 10 + 1) === num) alert("Good work");
+//   else alert("Next time");
+//   console.log(+num);
+//   console.log(Math.floor(Math.random() * 10 + 1));
+// }
+// random();
+// const now = new Date();
+// const december = new Date(2021, 11, 25);
+// console.log(december);
+// let difference = december - now;
+// let oneDayMillisec = 1000 * 60 * 60 * 24;
+// let daysToChristmas = Math.ceil(difference / oneDayMillisec);
+// console.log(difference / oneDayMillisec);
+// console.log(daysToChristmas);
+// console.log(difference);
+// let num1 = document.getElementById("num1");
+// let num2 = document.getElementById("num2");
+// let multiply = document.getElementById("mul");
+// let divide = document.getElementById("div");
+// let result = document.getElementById("result");
+
+// function multi() {
+//   result.innerHTML = num1.value * num2.value;
+//   console.log(result);
+// }
+// function divid() {
+//   result.innerHTML = num1.value / num2.value;
+//   console.log(result.innerHTML);
+// }
