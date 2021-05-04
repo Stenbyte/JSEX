@@ -112,3 +112,39 @@ function getPriceOfExtr(id) {
 }
 
 // getPriceOfExtr(3);
+// function animate_string(id) {
+//   let element = document.getElementById("test");
+//   console.log(element);
+//   let textNode = element.childNodes[0];
+//   console.log(textNode);
+//   let text = textNode.data;
+//   console.log(text);
+//   setInterval(() => {
+//     text = text[text.length - 1] + text.substring(0, text.length - 1);
+//     console.log(text);
+//     textNode.data = text;
+//   }, 1000);
+// }
+// animate_string();
+let inp = document.getElementById("test");
+function rotate(stringI) {
+  let k = () => {
+    stringI = inp.innerHTML = stringI.slice(1) + stringI[0];
+    console.log(stringI.slice(0));
+  };
+  let setI = setInterval(k, 1000);
+  setTimeout(() => clearInterval(setI), 10000);
+}
+// rotate("w3resource");
+
+let word = document.getElementById("test");
+console.log(word);
+function rot(stringI) {
+  let text = () => {
+    stringI = word.innerHTML = stringI.slice(1) + stringI[0];
+    console.log(stringI);
+  };
+  let i = setInterval(text, 100);
+  setTimeout(() => clearInterval(i), 10000);
+}
+// rot("w3resource");
