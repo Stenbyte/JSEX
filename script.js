@@ -268,3 +268,73 @@ function leapYear(year) {
 // console.log(num(-2, -2));
 // console.log(num(2, 2));
 //21
+// function str(str) {
+//   if (str.substring(0, 2) === "Py" || str.slice(0, 2) === "py") return str;
+//   else return "Py" + str;
+// }
+
+// console.log(str("Python"));
+// console.log("Python".substring(0, 1));
+// console.log(str("thon"));
+// console.log(str("python"));
+// function str(str, char) {
+//   let part1 = str.substring(0, char);
+//   let part2 = str.substring(char + 1, str.length);
+//   return part1 + part2;
+// }
+
+// console.log(str("Javascript", 5));
+// console.log(str("Javascript", 8));
+// console.log(str("Javascript", 2));
+// function str(str) {
+// let first = str.slice(0, 1);
+// let sec = str.slice(-1);
+// let s = str.substring(1, 9);
+// return `${sec}${s}${first}`;
+//   let first = str.substring(1, str.length - 1);
+//   return str.charAt(str.length - 1) + first + str.charAt(0);
+// }
+
+// console.log(str("Javascript"));
+// console.log(str("Apple"));
+// console.log(str("Iphone"));
+// function str(str) {
+//   let f = str.slice(0, 1);
+//   console.log(f);
+//   return f + str + f;
+// }
+
+// console.log(str("Javascript"));
+// console.log(str("Apple"));
+// function num(num) {
+//   if (num % 3 === 0 || num % 7 === 0) return true;
+//   else return false;
+// }
+
+// console.log(num(2));
+// console.log(num(133));
+// console.log(num(7));
+// function str(str) {
+//   if (str.length >= 3) {
+//     let f = str.substring(0, 3);
+//     return f + str + f;
+//   } else return false;
+// }
+
+// console.log(str("Apple"));
+// console.log(str("Ap"));
+// function str(str) {
+//   if (str.startsWith("Java")) return true;
+//   else return false;
+// }
+// console.log(str("Javascript"));
+// console.log(str("asdsfpt"));
+// function num(num) {
+//   if (num >= 50 && num <= 99) return true;
+//   else return false;
+// }
+// console.log(num(50));
+// console.log(num(69));
+// console.log(num(6));
+// console.log(num(99));
+// console.log(num(100));
