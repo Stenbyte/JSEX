@@ -338,3 +338,19 @@ function leapYear(year) {
 // console.log(num(6));
 // console.log(num(99));
 // console.log(num(100));
+// function num(x, y, z) {
+//   if ((x >= 50 && x <= 99) || (y >= 50 && y <= 99) || (z >= 50 && z <= 99))
+//     return true;
+//   else return false;
+// }
+// console.log(num(1, 53, 23));
+// console.log(num(100, 3, 23));
+// console.log(num(1, 33, 23));
+// console.log(num(1, 33, 53));
+// console.log(num(99, 33, 3));
+// function str(str) {
+//   return str.slice(4) === "script" ? str.slice(0, 4) : str;
+// }
+
+// console.log(str("Javascript"));
+// console.log(str("Javacript"));
