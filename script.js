@@ -207,3 +207,64 @@ function leapYear(year) {
 //   console.log(t);
 // }
 // farToCel(248);
+// alert(document.URL);
+
+// const varname = "abc";
+// const n = 120;
+// console.log(this[varname]);
+// this[varname] = n;
+// console.log(this[varname]);
+//14
+// let file = "img.jpeg";
+// console.log(file.split(".").pop());
+// let f = "abs.bbb";
+// console.log(f.split(".").pop());
+// function diff(num) {
+//   if (num > 13) {
+//     return (num - 13) * 2;
+//   }
+//   return 13 - num;
+// }
+// console.log(diff(3));
+// console.log(diff(134));
+// function sum(num1, num2) {
+//   let sum = 0;
+//   if (num1 === num2) {
+//     return (sum = (num1 + num2) * 3);
+//   } else return (sum = num1 + num2);
+// }
+// console.log(sum(1, 3));
+// console.log(sum(3, 3));
+// function diff(num) {
+//   if (num > 19) {
+//     return (num - 19) * 3;
+//   } else return 19 - num;
+// }
+// console.log(diff(10));
+// console.log(diff(100));
+// console.log(diff(25));
+// function sum(n1, n2) {
+//   let sum = n1 + n2;
+//   if (n1 === 50 || n2 === 50) return true;
+//   if (sum === 50) return true;
+//   if (sum !== 50) return false;
+// }
+// console.log(sum(50, 3));
+// console.log(sum(47, 3));
+// console.log(sum(44, 3));
+// function num(x) {
+//   return Math.abs(100 - x) <= 20 || Math.abs(400 - x) <= 20;
+// }
+// console.log(num(120));
+// console.log(num(300));
+// console.log(num(3000));
+// console.log(num(3));
+// function num(x, y) {
+//   if ((x > 0 && y < 0) || (x < 0 && y > 0)) return true;
+//   else return false;
+// }
+
+// console.log(num(2, -2));
+// console.log(num(-2, -2));
+// console.log(num(2, 2));
+//21
