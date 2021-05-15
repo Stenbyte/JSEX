@@ -392,3 +392,67 @@
 
 // console.log(num(55, 47));
 //35
+// function char(string, char) {
+//   let ctr = 0;
+//   for (let i = 0; i < string.length; i++) {
+//     if (string.charAt(i) === char && i >= 1 && i <= 3) {
+//       ctr = 1;
+//       break;
+//     }
+//   }
+//   if (ctr === 1) return true;
+//   return false;
+// }
+
+// console.log(char("Javascript", "a"));
+//36
+// function num(x, y, z) {
+//   if (x > 0 && y > 0 && z > 0) {
+//     return x % 10 === y % 10 && y % 10 === z % 10 && z % 10 === x % 10;
+//   } else return false;
+// }
+// console.log(num(30, 20, 30));
+//37
+// function str(string) {
+//   if (string.length <= 3) {
+//     return string.toUpperCase();
+//   }
+//   if (string.length > 3) {
+//     let f = string.substring(0, 3).toLowerCase();
+//     let s = string.slice(3, string.length);
+//     return f + s;
+//   }
+// }
+// console.log(str("PYTHON"));
+// console.log(str("pyt"));
+// console.log(str("JAVASCRIPT"));
+//38
+// function num(marks, isExam) {
+//   if (isExam === " ") {
+//     return marks >= 80 && marks <= 100;
+//   }
+//   if (isExam) {
+//     return marks >= 90;
+//   }
+// }
+// console.log(num(70, "true"));
+// console.log(num(80, " "));
+// console.log(num(90, "true"));
+//39
+// function num(x, y) {
+//   let sum = 0;
+//   sum = x + y;
+//   if (sum >= 50 && sum <= 80) {
+//     return 65;
+//   } else return 85;
+// }
+// console.log(num(50, 15));
+//40
+// function num(x, y) {
+//   if (x === 8 || y === 8) return true;
+//   if (x + y === 8 || Math.abs(x - y) === 8) return true;
+// }
+
+// console.log(num(7, 8));
+// console.log(num(16, 8));
+// console.log(num(24, 32));
