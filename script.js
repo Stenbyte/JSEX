@@ -1,5 +1,5 @@
 "use strict";
-
+// Basic Exercise
 // let date = new Date();
 // let wd = date.getDate();
 // let wk = date.getDay() - 1;
@@ -40,76 +40,76 @@
 // console.log(s);
 // let area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
 // console.log(area);
-const arr = [
-  {
-    id: 1,
-    name: "NoSql - New Hope",
-    author: "Layla Jones",
-    topics: ["noSql", "sql", "future databases"],
-    price: 25,
-    extras: [
-      {
-        name: "hard cover",
-        price: 30,
-      },
-      {
-        name: "cd",
-        price: 15,
-      },
-    ],
-  },
-  {
-    id: 2,
-    name: "Databases - The rise and fall",
-    author: "Antony Lee",
-    topics: ["data storages", "sql", "noSql"],
-    price: 45,
-    extras: [
-      {
-        name: "signed by author",
-        price: 80,
-      },
-      {
-        name: "dvd",
-        price: 65,
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Hacking databases",
-    author: "Emily White",
-    topics: [],
-    price: 30,
-    extras: [],
-  },
-];
-function getTotalPrice(id) {
-  for (let book of arr) {
-    if (book.id === id) {
-      let sum = book.price;
-      console.log(sum);
-      for (let ex of book.extras) {
-        sum += ex.price;
-        console.log(sum);
-      }
-    }
-  }
-}
+// const arr = [
+//   {
+//     id: 1,
+//     name: "NoSql - New Hope",
+//     author: "Layla Jones",
+//     topics: ["noSql", "sql", "future databases"],
+//     price: 25,
+//     extras: [
+//       {
+//         name: "hard cover",
+//         price: 30,
+//       },
+//       {
+//         name: "cd",
+//         price: 15,
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     name: "Databases - The rise and fall",
+//     author: "Antony Lee",
+//     topics: ["data storages", "sql", "noSql"],
+//     price: 45,
+//     extras: [
+//       {
+//         name: "signed by author",
+//         price: 80,
+//       },
+//       {
+//         name: "dvd",
+//         price: 65,
+//       },
+//     ],
+//   },
+//   {
+//     id: 3,
+//     name: "Hacking databases",
+//     author: "Emily White",
+//     topics: [],
+//     price: 30,
+//     extras: [],
+//   },
+// ];
+// function getTotalPrice(id) {
+//   for (let book of arr) {
+//     if (book.id === id) {
+//       let sum = book.price;
+//       console.log(sum);
+//       for (let ex of book.extras) {
+//         sum += ex.price;
+//         console.log(sum);
+//       }
+//     }
+//   }
+// }
 
 // getTotalPrice(1);
 
-function getPriceOfExtr(id) {
-  for (let ex of arr) {
-    if (ex.id === id) {
-      let sum = 0;
-      for (let e of ex.extras) {
-        sum += e.price;
-        console.log(sum);
-      }
-    }
-  }
-}
+// function getPriceOfExtr(id) {
+//   for (let ex of arr) {
+//     if (ex.id === id) {
+//       let sum = 0;
+//       for (let e of ex.extras) {
+//         sum += e.price;
+//         console.log(sum);
+//       }
+//     }
+//   }
+// }
 
 // getPriceOfExtr(3);
 // function animate_string(id) {
@@ -126,33 +126,33 @@ function getPriceOfExtr(id) {
 //   }, 1000);
 // }
 // animate_string();
-let inp = document.getElementById("test");
-function rotate(stringI) {
-  let k = () => {
-    stringI = inp.innerHTML = stringI.slice(1) + stringI[0];
-    console.log(stringI.slice(0));
-  };
-  let setI = setInterval(k, 1000);
-  setTimeout(() => clearInterval(setI), 10000);
-}
-// rotate("w3resource");
+// let inp = document.getElementById("test");
+// function rotate(stringI) {
+//   let k = () => {
+//     stringI = inp.innerHTML = stringI.slice(1) + stringI[0];
+//     console.log(stringI.slice(0));
+//   };
+//   let setI = setInterval(k, 1000);
+//   setTimeout(() => clearInterval(setI), 10000);
+// }
+// // rotate("w3resource");
 
-let word = document.getElementById("test");
+// let word = document.getElementById("test");
 
-function rot(stringI) {
-  let text = () => {
-    stringI = word.innerHTML = stringI.slice(1) + stringI[0];
-    console.log(stringI);
-  };
-  let i = setInterval(text, 100);
-  setTimeout(() => clearInterval(i), 10000);
-}
-// rot("w3resource");
-function leapYear(year) {
-  if (year % 4 === 0 || year % 100 === 0 || year % 400 === 0)
-    return console.log(`Leap year`);
-  else console.log(`Not a leap year`);
-}
+// function rot(stringI) {
+//   let text = () => {
+//     stringI = word.innerHTML = stringI.slice(1) + stringI[0];
+//     console.log(stringI);
+//   };
+//   let i = setInterval(text, 100);
+//   setTimeout(() => clearInterval(i), 10000);
+// }
+// // rot("w3resource");
+// function leapYear(year) {
+//   if (year % 4 === 0 || year % 100 === 0 || year % 400 === 0)
+//     return console.log(`Leap year`);
+//   else console.log(`Not a leap year`);
+// }
 
 // leapYear(2000);
 // leapYear(2020);
@@ -354,3 +354,41 @@ function leapYear(year) {
 
 // console.log(str("Javascript"));
 // console.log(str("Javacript"));
+//31
+// function num(a, b, c, d, e, f) {
+//   return Math.max(a, b, c, d, e, f);
+// }
+// console.log(num(1, 2, 4, 10, 12, 3));
+//32
+// function largest(x, y) {
+//   if (x !== y) {
+//     if (x > y) {
+//       return x;
+//     }
+//     if (x < y) {
+//       return y;
+//     }
+//   } else return false;
+// }
+
+// console.log(largest(84, 95));
+//33
+// function num(x, y) {
+//   if (
+//     (x >= 40 && x <= 60 && y >= 40 && y <= 60) ||
+//     (x >= 70 && x <= 100 && y >= 70 && y <= 100)
+//   ) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(num(40, 90));
+//34
+// function num(x, y) {
+//   if (x > y) return x;
+//   if (y > x) return y;
+// }
+
+// console.log(num(55, 47));
+//35
