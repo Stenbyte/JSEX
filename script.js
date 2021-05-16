@@ -456,3 +456,59 @@
 // console.log(num(7, 8));
 // console.log(num(16, 8));
 // console.log(num(24, 32));
+//41
+// function num(x, y, z) {
+//   if (x === y && y === z) {
+//     return 30;
+//   }
+//   if (x === y || y === z || x === z) {
+//     return 40;
+//   }
+//   return 20;
+// }
+// console.log(num(3, 1, 2));
+//42
+// function num(x, y, z) {
+//   if (x < y && y < z) {
+//     return "Strict mode";
+//   }
+//   if (y < z) {
+//     return "Soft mode";
+//   }
+// }
+// console.log(num(10, 11, 12));
+// console.log(num(18, 15, 25));
+// console.log(num(10, 9, 120));
+//43
+// function num(x, y, z) {
+//   if (x % 10 === y % 10 && y % 10 === z % 10) return true;
+//   else return false;
+// }
+// console.log(num(22, 32, 42));
+// console.log(num(22, 32, 43));
+//44
+// function num(x, y, z) {
+//   return (
+//     (x >= 20 && (x < y || x < z)) ||
+//     (y >= 20 && (y < x || y < z)) ||
+//     (z >= 20 && (z < x || z < y))
+//   );
+// }
+// console.log(num(30, 31, 32));
+// console.log(num(30, 32, 31));
+// console.log(num(32, 31, 30));
+// console.log(num(23, 45, 10));
+// console.log(num(23, 23, 10));
+//45
+// function num(x, y) {
+//   if (x - y === 15) {
+//     return true;
+//   }
+//   if (x + y === 15) {
+//     return true;
+//   }
+//   return false;
+// }
+// console.log(num(7, 8));
+// console.log(num(25, 10));
+// console.log(num(24, 11));
