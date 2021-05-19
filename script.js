@@ -512,3 +512,25 @@
 // console.log(num(7, 8));
 // console.log(num(25, 10));
 // console.log(num(24, 11));
+//46
+// function num(x, y) {
+//   if (!((x % 7 == 0 || x % 11 == 0) && (y % 7 == 0 || y % 11 == 0))) {
+//     return x % 7 == 0 || x % 11 == 0 || y % 7 == 0 || y % 11 === 0;
+//   } else return false;
+// }
+// console.log(num(14, 21));
+// console.log(num(14, 20));
+// console.log(num(16, 20));
+//47
+// function num(num) {
+//   return num >= 40 && num <= 10000 ? true : false;
+// }
+// console.log(num(40));
+// console.log(num(30));
+// console.log(num(3000));
+//48
+// function str(str) {
+//   return str.split("").reverse().join("");
+// }
+// console.log(str("Javascript"));
+// console.log(str("Hello"));
