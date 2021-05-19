@@ -538,6 +538,7 @@
 // function str(str) {
 //   let s = str.split("");
 //   for (let i = 0; i < s.length; i++) {
+//     console.log(s[i]);
 //     switch (s[i]) {
 //       case " ":
 //         break;
@@ -555,5 +556,34 @@
 // }
 // console.log(str("PYTHON"));
 // console.log(str("abc"));
-// console.log("1".charCodeAt(0));
+// console.log("p".charCodeAt(0));
+// console.log(String.fromCharCode(113));
 //50
+// function str(str) {
+//   const s = str.slice(0, 1).toUpperCase();
+//   const f = str.slice(1);
+//   return s + f;
+// }
+// console.log(str("java"));
+// console.log(str("pava"));
+// console.log(str("sava"));
+// console.log(str("savasldfjfhds"));
+//51
+// function num(num) {
+//   const hour = Math.floor(num / 60);
+//   const min = num % 60;
+//   return `${hour}:${min}`;
+// }
+// console.log(num(30));
+// console.log(num(350));
+// console.log(num(300));
+//52
+// function str(str) {
+//   return str.split("").sort().join("");
+// }
+// console.log(str("python"));
+//53
+// function str(str) {
+//   return /a...b/.test(str) || /b...a/.test(str);
+// }
+// console.log(str("chainsbreak"));
