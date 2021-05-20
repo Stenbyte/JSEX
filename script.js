@@ -647,3 +647,17 @@
 // }
 // console.log(str("python", 5));
 // console.log(str("pyt", 5));
+//59
+// function str(str) {
+//   if (str.length % 2 === 0) {
+//     return str.slice(0, 5);
+//   } else return false;
+// }
+// console.log(str("javascript"));
+// console.log(str("javascipt"));
+//60
+// function str(str) {
+//   return str.slice(1, -1);
+// }
+// console.log(str("python"));
+// console.log(str("javascript"));
