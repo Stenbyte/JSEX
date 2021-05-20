@@ -587,3 +587,63 @@
 //   return /a...b/.test(str) || /b...a/.test(str);
 // }
 // console.log(str("chainsbreak"));
+//54
+// function str(str) {
+//   let vowelCount = 0;
+//   let vowel = ["a", "e", "i", "o", "u"];
+//   for (let char of str) {
+//     if (vowel.includes(char)) {
+//       vowelCount++;
+//     }
+//   }
+//   return vowelCount;
+// }
+// console.log(str("javascript"));
+// console.log(str("python"));
+// function str1(str) {
+//   let regex = new RegExp(/a/g);
+//   let s = str.match(regex);
+//   return s.length;
+// }
+// console.log(str1("Python"));
+// console.log(str1("Java bizzare"));
+//55
+// function str(str) {
+//   let p = str.replace(/[^p]/g, "");
+//   let t = str.replace(/[^t]/g, "");
+//   return p.length === t.length;
+// }
+// console.log(str("paatpss"));
+// console.log(str("paatpsst"));
+//56
+// function division_string(n1, n2) {
+//   n1 = 80;
+//   n2 = 6;
+
+//   let div = Math.floor(n1 / n2).toString();
+//   let resultAr = div.split("");
+//   console.log(div);
+//   console.log(resultAr);
+// }
+// division_string();
+//57
+// function str(str, n) {
+//   if (n < 0) {
+//     return false;
+//   }
+//   if (n > 0) {
+//     return str.repeat(n);
+//   }
+// }
+// console.log(str("abc", 5));
+//58
+// function str(str, n) {
+//   if (str.length <= 3) {
+//     return false;
+//   }
+//   if (str.length >= 3 && n > 0) {
+//     return str.slice(3).repeat(n);
+//   }
+// }
+// console.log(str("python", 5));
+// console.log(str("pyt", 5));
