@@ -773,3 +773,11 @@
 // console.log(num([3, 2, 1]));
 // console.log(num([3, 2, 4]));
 //72
+// function num(arr) {
+//   if (arr[0] === arr[arr.length - 1]) {
+//     return true;
+//   } else return false;
+// }
+// console.log(num([1, 2, 1]));
+// console.log(num([1, 2, 2]));
+//73
