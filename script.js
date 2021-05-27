@@ -672,12 +672,20 @@
 // console.log(str("PHPJ", "JSJ"));
 // console.log(str("Apple", "JSJ"));
 //62
-function str(str) {
-  if (str.length >= 3) {
-    const f = str.substring(str.length - 3);
+// function str(str) {
+//   if (str.length >= 3) {
+//     const f = str.substring(str.length - 3);
 
-    return f + str;
+//     return f + str;
+//   }
+// }
+// console.log(str("Apple"));
+// console.log(str("Javascript"));
+//63
+function str(str) {
+  if (str.length % 2 !== 0) {
+    const mid = (str.length + 1) / 2;
+    return str.slice(mid - 2, mid + 1);
   }
 }
-console.log(str("Apple"));
-console.log(str("Javascript"));
+console.log(str("abcdefg"));
