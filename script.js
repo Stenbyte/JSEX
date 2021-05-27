@@ -742,3 +742,13 @@
 // console.log(str("laralonp"));
 // console.log(str("laralon"));
 //68
+// function str(str) {
+//   let n = 2;
+//   if (str.length >= n) {
+//     return str.slice(0, n) + str.slice(str.length - n);
+//   }
+// }
+// console.log(str("Helsinki"));
+// console.log(str("Apple"));
+// console.log(str("Javascript"));
+//69
