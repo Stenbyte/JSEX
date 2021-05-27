@@ -661,3 +661,13 @@
 // }
 // console.log(str("python"));
 // console.log(str("javascript"));
+//61
+// function str(str1, str2) {
+//   const f = str1.slice(1);
+//   const s = str2.substring(1);
+
+//   return f + s;
+// }
+// console.log(str("PHP", "JS"));
+// console.log(str("PHPJ", "JSJ"));
+// console.log(str("Apple", "JSJ"));
