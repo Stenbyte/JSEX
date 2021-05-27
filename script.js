@@ -682,10 +682,22 @@
 // console.log(str("Apple"));
 // console.log(str("Javascript"));
 //63
-function str(str) {
-  if (str.length % 2 !== 0) {
-    const mid = (str.length + 1) / 2;
-    return str.slice(mid - 2, mid + 1);
-  }
-}
-console.log(str("abcdefg"));
+// function str(str) {
+//   if (str.length % 2 !== 0) {
+//     const mid = (str.length + 1) / 2;
+//     return str.slice(mid - 2, mid + 1);
+//   }
+// }
+// console.log(str("abcdefg"));
+//64
+// function str(str1, str2) {
+//   if (str1.length >= 2 || str2.length >= 2) {
+//     const f = str1.slice(str1.length - 2);
+//     const s = str2.slice(str2.length - 2);
+//     return f + s;
+//   }
+//   const m = Math.min(str1.length, str2.length);
+//   return str1.slice(str1.length - m) + str2.slice(str2.length - m);
+// }
+// console.log(str("Python", "JS"));
+// console.log(str("Pythonjhjkghfh", "JSJHJHGHGFJGHHJKGHJHJ"));
