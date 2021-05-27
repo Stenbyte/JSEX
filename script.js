@@ -757,3 +757,8 @@
 // }
 // let s = [23, 2, 45];
 // console.log(num(s));
+//70
+// function num(arr) {
+//   return [arr[1], arr[2], arr[0]];
+// }
+// console.log(num([2, 3, 4]));
