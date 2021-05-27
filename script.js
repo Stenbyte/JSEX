@@ -715,3 +715,15 @@
 // console.log(str("Javascript"));
 // console.log(str("Javascripthjg"));
 //66
+// function str(str) {
+//   if (str.slice(0, 3) === "Los" || str.slice(0, 3) === "New") {
+//     return str;
+//   } else {
+//     return `blank`;
+//   }
+// }
+// console.log(str("Los Angeles"));
+// console.log(str("New York"));
+// console.log(str("York"));
+// console.log(str("York New"));
+//67
