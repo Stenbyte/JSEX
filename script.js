@@ -785,3 +785,15 @@
 //   return arr.reverse();
 // }
 // console.log(num([2, 3, 4]));
+//74
+// function num(arr) {
+//   const m = Math.max(...arr);
+//   const a = [];
+//   for (let i of arr) {
+//     i = m;
+//     a.push(i);
+//     console.log(a);
+//   }
+//   return arr.fill(Math.max(...arr));
+// }
+// console.log(num([20, 30, 40]));
