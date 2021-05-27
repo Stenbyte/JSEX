@@ -671,3 +671,13 @@
 // console.log(str("PHP", "JS"));
 // console.log(str("PHPJ", "JSJ"));
 // console.log(str("Apple", "JSJ"));
+//62
+function str(str) {
+  if (str.length >= 3) {
+    const f = str.substring(str.length - 3);
+
+    return f + str;
+  }
+}
+console.log(str("Apple"));
+console.log(str("Javascript"));
