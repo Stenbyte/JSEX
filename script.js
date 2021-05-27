@@ -762,3 +762,14 @@
 //   return [arr[1], arr[2], arr[0]];
 // }
 // console.log(num([2, 3, 4]));
+//71
+// function num(arr) {
+//   if (arr.length >= 1) {
+//     let end = arr.length - 1;
+//     return arr[0] === 1 || arr[end] === 1;
+//   }
+// }
+// console.log(num([1, 2, 3]));
+// console.log(num([3, 2, 1]));
+// console.log(num([3, 2, 4]));
+//72
