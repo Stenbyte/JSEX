@@ -701,3 +701,17 @@
 // }
 // console.log(str("Python", "JS"));
 // console.log(str("Pythonjhjkghfh", "JSJHJHGHGFJGHHJKGHJHJ"));
+//65
+// function str(str) {
+//   if (str.length >= 6) {
+//     if (str.substring(str.length - 6, str.length) === "script") {
+//       const s = str.substring(str.length - 6, str.length) === "script";
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+// }
+// console.log(str("Javascript"));
+// console.log(str("Javascripthjg"));
+//66
