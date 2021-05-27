@@ -781,3 +781,7 @@
 // console.log(num([1, 2, 1]));
 // console.log(num([1, 2, 2]));
 //73
+// function num(arr) {
+//   return arr.reverse();
+// }
+// console.log(num([2, 3, 4]));
