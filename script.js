@@ -752,3 +752,8 @@
 // console.log(str("Apple"));
 // console.log(str("Javascript"));
 //69
+// function num(arr) {
+//   return arr[0] + arr[1] + arr[2];
+// }
+// let s = [23, 2, 45];
+// console.log(num(s));
