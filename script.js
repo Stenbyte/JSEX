@@ -727,3 +727,18 @@
 // console.log(str("York"));
 // console.log(str("York New"));
 //67
+// function str(str) {
+//   let start = 0;
+//   let end = str.length;
+//   if (str.length > 0 && str.charAt(0) === "P") {
+//     start = 1;
+//   }
+//   if (str.length > 1 && str.charAt(str.length - 1) === "p") {
+//     end--;
+//   }
+//   return str.substring(start, end);
+// }
+// console.log(str("Paralon"));
+// console.log(str("laralonp"));
+// console.log(str("laralon"));
+//68
