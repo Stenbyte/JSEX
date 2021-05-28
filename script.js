@@ -849,3 +849,22 @@
 // }
 // console.log(num([1, 2, 3]));
 // console.log(num([3, 2, 5]));
+//81
+// function num(ar) {
+//   return (ar % 10) + Math.floor(ar / 10);
+// }
+// console.log(num(25));
+// console.log(num(22));
+//82
+// function num(n1, n2) {
+//   let result = 0;
+//   let x = 1;
+//   while (n1 > 0 && n2 > 0) {
+//     result += x * ((n1 + n2) % 10);
+//     n1 = Math.floor(n1 / 10);
+//     n2 = Math.floor(n2 / 10);
+//     x *= 10;
+//   }
+//   return result;
+// }
+// console.log(num(222, 911));
