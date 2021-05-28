@@ -811,3 +811,15 @@
 // }
 // console.log(num([20, 30, 40]));
 // console.log(num([30, 40, 50]));
+//77
+// function num(arr) {
+//   if (arr.length === 2) {
+//     return arr.includes(1) || arr.includes(5);
+//   } else {
+//     return "To long";
+//   }
+// }
+// console.log(num([1, 5]));
+// console.log(num([2, 3]));
+// console.log(num([2, 5]));
+// console.log(num([2, 5, 4]));
