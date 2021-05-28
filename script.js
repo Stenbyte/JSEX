@@ -797,3 +797,10 @@
 //   return arr.fill(Math.max(...arr));
 // }
 // console.log(num([20, 30, 40]));
+//75
+// function num(a, b) {
+//   let c = [];
+//   c.push(a[1], b[1]);
+//   return c;
+// }
+// console.log(num([1, 2, 3], [4, 5, 6]));
