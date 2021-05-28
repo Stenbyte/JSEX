@@ -804,3 +804,10 @@
 //   return c;
 // }
 // console.log(num([1, 2, 3], [4, 5, 6]));
+//76
+// function num(arr) {
+//   arr.splice(1, 1);
+//   return arr;
+// }
+// console.log(num([20, 30, 40]));
+// console.log(num([30, 40, 50]));
