@@ -860,11 +860,34 @@
 //   let result = 0;
 //   let x = 1;
 //   while (n1 > 0 && n2 > 0) {
+//     console.log(n1, n2);
 //     result += x * ((n1 + n2) % 10);
 //     n1 = Math.floor(n1 / 10);
 //     n2 = Math.floor(n2 / 10);
+//     console.log(result, "res");
 //     x *= 10;
+//     console.log(x);
 //   }
 //   return result;
 // }
 // console.log(num(222, 911));
+//83
+// function str(arr) {
+//   let max = arr.map((ar) => ar.length);
+//   console.log(max);
+//   const m1 = Math.max(...max);
+//   console.log(m1);
+//   let result = arr.filter((word) => word.length === m1);
+//   console.log(result);
+// }
+// str(["aaa", "aaaa", "aaaaaa", "aa"]);
+// function longest_string(str_ara) {
+//   var max = str_ara[0].length;
+//   console.log(max);
+//   str_ara.map((v) => (max = Math.max(max, v.length)));
+//   console.log(max);
+//   let result = str_ara.filter((v) => v.length == max);
+//   return result;
+// }
+
+// console.log(longest_string(["a", "aa", "aaa", "aaaaa", "aaaa"]));
