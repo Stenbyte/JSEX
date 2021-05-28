@@ -823,3 +823,11 @@
 // console.log(num([2, 3]));
 // console.log(num([2, 5]));
 // console.log(num([2, 5, 4]));
+//78
+// function num(arr) {
+//   return arr.find((number) => number === 1 || number === 3) ? "false" : "ok";
+// }
+// console.log(num([1, 3]));
+// console.log(num([1, 4]));
+// console.log(num([2, 4]));
+// console.log(num([2, 3]));
