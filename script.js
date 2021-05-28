@@ -891,3 +891,18 @@
 // }
 
 // console.log(longest_string(["a", "aa", "aaa", "aaaaa", "aaaa"]));
+//84
+// function str(str) {
+//   let s = str.split("");
+//   let ar = [];
+//   for (let i = 0; i <= s.length - 1; i++) {
+//     let num = s[i].charCodeAt(0);
+//     let ss = String.fromCharCode(num + 1);
+//     ar.push(ss);
+
+//   }
+
+//   return ar.join("");
+// }
+// console.log(str("abcdef"));
+// console.log(str("klmnop"));
