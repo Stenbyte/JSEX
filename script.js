@@ -842,3 +842,10 @@
 // console.log(num([30, 40]));
 // console.log(num([40, 40]));
 // console.log(num([20, 20]));
+//80
+// function num(arr) {
+//   let [a, b, c] = [...arr];
+//   return [c, b, a];
+// }
+// console.log(num([1, 2, 3]));
+// console.log(num([3, 2, 5]));
