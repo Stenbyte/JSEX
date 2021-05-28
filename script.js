@@ -831,3 +831,14 @@
 // console.log(num([1, 4]));
 // console.log(num([2, 4]));
 // console.log(num([2, 3]));
+//79
+// function num(array) {
+//   let a = array[0];
+//   let b = array[1];
+//   if ((a === 30 && b === 30) || (a === 40 && b === 40)) return true;
+//   else return false;
+// }
+// console.log(num([30, 30]));
+// console.log(num([30, 40]));
+// console.log(num([40, 40]));
+// console.log(num([20, 20]));
