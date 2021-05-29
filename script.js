@@ -948,3 +948,17 @@
 // }
 // num(10, 25, 5);
 // num(11, 23, 5);
+//89
+// function num(x, y, z) {
+//   if (x + y === z) return true;
+//   if (x - y === z) return true;
+//   if (x * y === z) return true;
+//   if (x / y === z) return true;
+//   else return false;
+// }
+// console.log(num(10, 25, 35));
+// console.log(num(10, 25, 250));
+// console.log(num(30, 25, 5));
+// console.log(num(100, 25, 4.0));
+// console.log(num(100, 25, 25));
+//90
