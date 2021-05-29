@@ -966,3 +966,16 @@
 //   return arr.sort()[k - 1];
 // }
 // console.log(num([1, 2, 6, 4, 5], 3));
+//91
+// function num(arr) {
+//   let max_diff = 0;
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     let diff = Math.abs(arr[i] - arr[i + 1]);
+//     console.log(diff);
+//     if (diff > max_diff) {
+//       max_diff = diff;
+//     }
+//   }
+//   return max_diff;
+// }
+// console.log(num([1, 2, 3, 8, 9]));
