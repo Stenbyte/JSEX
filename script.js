@@ -962,3 +962,7 @@
 // console.log(num(100, 25, 4.0));
 // console.log(num(100, 25, 25));
 //90
+// function num(arr, k) {
+//   return arr.sort()[k - 1];
+// }
+// console.log(num([1, 2, 6, 4, 5], 3));
