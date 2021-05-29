@@ -919,3 +919,15 @@
 //   return result;
 // }
 // console.log(num([1, 3, 6, 2, 5, 10]));
+//86
+// function num(angle) {
+//   if (angle < 90) return "Acute angel";
+//   if (angle === 90) return "Right angle";
+//   if (angle > 90 && angle < 180) return "Obtuse angle";
+//   if (angle === 180) console.log("Straight angle");
+// }
+// console.log(num(89));
+// console.log(num(90));
+// console.log(num(130));
+// num(180);
+//87
