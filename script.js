@@ -992,3 +992,18 @@
 //   return max_diff;
 // }
 // console.log(num([1, 2, 3, 14, 5], 2));
+//93
+// function num(arr) {
+//   let max = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let k = 0; k != i && k < arr.length; k++) {
+//       console.log(arr[i], "I");
+//       let diff = Math.abs(arr[i] - arr[k]);
+//       console.log(arr[k], "K");
+//       max = Math.max(max, diff);
+//     }
+//   }
+//   return max;
+// }
+// console.log(num([1, 2, 3, 8, 9]));
+//
