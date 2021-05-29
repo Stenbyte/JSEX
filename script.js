@@ -1006,4 +1006,28 @@
 //   return max;
 // }
 // console.log(num([1, 2, 3, 8, 9]));
-//
+//94
+// function num(arr) {
+//   let frequency = {};
+//   let max = 0;
+//   let result;
+//   for (let v in arr) {
+
+//     frequency[arr[v]] = (frequency[arr[v]] || 0) + 1;
+
+//     if (frequency[arr[v]] > max) {
+//       max = frequency[arr[v]];
+//       result = arr[v];
+//     }
+//   }
+//   return result;
+//   let s = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+//     if (arr[i]) {
+//       s.push(arr[i]);
+//       console.log(s);
+//     }
+//   }
+// }
+// console.log(num([1, 2, 3, 2, 2, 8, 1, 9]));
