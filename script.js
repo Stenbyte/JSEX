@@ -941,3 +941,10 @@
 // console.log(num([10, 20, 30], [30, 10, 20]));
 // console.log(num([20, 20, 30], [10, 20, 40]));
 //88
+// function num(x, y, d) {
+//   if (x % d === 0 && y % d === 0) {
+//     console.log(true);
+//   } else console.log(false);
+// }
+// num(10, 25, 5);
+// num(11, 23, 5);
