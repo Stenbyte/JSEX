@@ -931,3 +931,13 @@
 // console.log(num(130));
 // num(180);
 //87
+// function num(one, two) {
+//   if (one.length !== two.length) return false;
+//   for (let i = 0; i < one.length; i++) {
+//     return one[i] === two[i];
+//   }
+// }
+// console.log(num([10, 20, 30], [10, 20, 30]));
+// console.log(num([10, 20, 30], [30, 10, 20]));
+// console.log(num([20, 20, 30], [10, 20, 40]));
+//88
