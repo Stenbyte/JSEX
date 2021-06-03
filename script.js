@@ -1052,3 +1052,10 @@
 //   return result;
 // }
 // console.log(num([1, 2, 3, 2, -5]));
+//97
+// function test(str) {
+//   let str1 = str + str.split("").reverse().join("").slice(1);
+//   return str1;
+// }
+// console.log(test("esatto"));
+// console.log(test("madam"));
