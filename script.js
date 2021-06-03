@@ -1059,3 +1059,19 @@
 // }
 // console.log(test("esatto"));
 // console.log(test("madam"));
+//98
+function str(str) {
+  let x = 0;
+  let y = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (/[A-Z]/.test(str[i])) {
+      x++;
+    } else {
+      y++;
+    }
+  }
+  if (y < x) return str.toUpperCase();
+  else return str.toLowerCase();
+}
+console.log(str("Write"));
+console.log(str("PHp"));
