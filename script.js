@@ -1031,3 +1031,14 @@
 //   }
 // }
 // console.log(num([1, 2, 3, 2, 2, 8, 1, 9]));
+//95
+// function num(arr, x, z) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === x) {
+//       arr[i] = z;
+//     }
+//   }
+//   return arr;
+// }
+// let arr = [1, 2, 3, 4, 5, 2, 3, 2, 8];
+// console.log(num(arr, 2, 9));
