@@ -1042,3 +1042,13 @@
 // }
 // let arr = [1, 2, 3, 4, 5, 2, 3, 2, 8];
 // console.log(num(arr, 2, 9));
+//96
+// function num(arr) {
+//   let result = 0;
+//   for (let i = 1; i < arr.length; i++) {
+//     console.log(i);
+//     result += Math.abs(arr[i] - arr[i - 1]);
+//   }
+//   return result;
+// }
+// console.log(num([1, 2, 3, 2, -5]));
