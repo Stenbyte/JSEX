@@ -1060,18 +1060,43 @@
 // console.log(test("esatto"));
 // console.log(test("madam"));
 //98
-function str(str) {
-  let x = 0;
-  let y = 0;
-  for (let i = 0; i < str.length; i++) {
-    if (/[A-Z]/.test(str[i])) {
-      x++;
-    } else {
-      y++;
-    }
-  }
-  if (y < x) return str.toUpperCase();
-  else return str.toLowerCase();
-}
-console.log(str("Write"));
-console.log(str("PHp"));
+// function str(str) {
+//   let x = 0;
+//   let y = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (/[A-Z]/.test(str[i])) {
+//       x++;
+//     } else {
+//       y++;
+//     }
+//   }
+//   if (y < x) return str.toUpperCase();
+//   else return str.toLowerCase();
+// }
+// console.log(str("Write"));
+// console.log(str("PHp"));
+//99
+// function str(str1, str2) {
+//   let st1 = str1.split("");
+//   let st2 = str2.split("");
+//   let result = true;
+//   st1.sort();
+//   st2.sort();
+//   for (let i = 0; i < Math.max(st1.length, st2.length); i++) {
+//     if (st1[i] !== st2[i]) {
+//       result = false;
+//     }
+//   }
+//   return result;
+// }
+// console.log(str("xyz", "zyx"));
+// console.log(str("xyz", "zax"));
+//100
+// function num(arr1, arr2) {
+//   for (let i = 0; i < arr1.length; i++) {
+//     if (arr2.includes(arr1[i])) return true;
+//   }
+//   return false;
+// }
+// console.log(num([1, 2, 3], [3, 4, 5]));
+// console.log(num([1, 2, 3], [4, 5, 6]));
