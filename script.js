@@ -1100,3 +1100,50 @@
 // }
 // console.log(num([1, 2, 3], [3, 4, 5]));
 // console.log(num([1, 2, 3], [4, 5, 6]));
+//101
+// function str(str) {
+//   let is_lower_case = function (symbol) {
+//     if ("a" <= symbol && symbol <= "z") {
+//       return true;
+//     }
+//     return false;
+//   };
+//   let is_upper_case = function (symbol) {
+//     if ("A" <= symbol && symbol <= "Z") {
+//       return true;
+//     }
+//     return false;
+//   };
+//   let is_first_char_lower = is_lower_case(str[0]);
+//   let is_first_upper_char = is_upper_case(str[0]);
+//   //   console.log(is_lower_case(str[0]));
+
+//   if (!(is_first_char_lower || is_first_upper_char)) {
+//     return false;
+//   }
+//   for (var i = 1; i < str.length; i++) {
+//     if (i % 2) {
+//       if (
+//         is_lower_case(str[i]) === is_first_char_lower ||
+//         is_upper_case(str[i]) === is_first_upper_char
+//       ) {
+// console.log(str[i]);
+//         return false;
+//       }
+//     } else {
+//       if (
+//         is_lower_case(
+//           str[i] !== is_first_char_lower ||
+//             is_upper_case(str[i]) !== is_first_upper_char
+//         )
+//       ) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// }
+// console.log(str("xYr"));
+// console.log(str("XXyx"));
+// console.log(str("xxYx"));
+//102
