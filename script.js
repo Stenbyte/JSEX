@@ -1147,3 +1147,19 @@
 // console.log(str("XXyx"));
 // console.log(str("xxYx"));
 //102
+// function num(arr) {
+//   let ctr = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     // console.log(arr[i]);
+//     for (let j = i + 1; j < arr.length; j++) {
+//       //   console.log(arr[j], "j");
+//       if (arr[i] > arr[j]) {
+//         ctr++;
+//       }
+//     }
+//   }
+//   return ctr;
+// }
+// console.log(num([0, 3, 2, 5, 9]));
+// console.log(num([1, 5, 4, 3]));
+// console.log(num([10, 30, 20, -10]));
