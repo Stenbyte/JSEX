@@ -1163,3 +1163,15 @@
 // console.log(num([0, 3, 2, 5, 9]));
 // console.log(num([1, 5, 4, 3]));
 // console.log(num([10, 30, 20, -10]));
+//103
+// function num(n) {
+//   let arr = n.toString().slice();
+//   if (arr[0] > 0) {
+//     // return arr.split("").find((n) => n > 0);
+//     return Math.floor(arr / 10);
+//   }
+//   console.log(arr);
+// }
+// console.log(num(100));
+// console.log(num(1030));
+// console.log(num(1245));
