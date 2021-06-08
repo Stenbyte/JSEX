@@ -1191,3 +1191,24 @@
 // console.log(num([12, 10, 33, 34], 10));
 // console.log(num([12, 10, 33, 34], 24));
 // console.log(num([12, 10, 33, 44], 40));
+//105
+// function num(num) {
+//   let sum = function (num) {
+//     let digitSum = 0;
+//     while (num) {
+//       digitSum += num % 10;
+//       num = Math.floor(num / 10);
+
+//     }
+//     return digitSum;
+//   };
+//   let result = 0;
+//   while (num >= 10) {
+//     result += 1;
+//     num = sum(num);
+//   }
+//   return result;
+// }
+// console.log(num(123));
+// console.log(num(156));
+// console.log(num(156));
