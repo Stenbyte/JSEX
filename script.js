@@ -1175,3 +1175,19 @@
 // console.log(num(100));
 // console.log(num(1030));
 // console.log(num(1245));
+//104
+// function num(arr, n) {
+//   let ar = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//       let x = Math.abs(arr[i] - arr[j]);
+//       if (x <= n) {
+//         ar.push(x);
+//       }
+//     }
+//   }
+//   return Math.max(...ar);
+// }
+// console.log(num([12, 10, 33, 34], 10));
+// console.log(num([12, 10, 33, 34], 24));
+// console.log(num([12, 10, 33, 44], 40));
