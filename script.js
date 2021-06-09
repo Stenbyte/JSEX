@@ -1227,3 +1227,18 @@
 // console.log(num(13, 2));
 // console.log(num(13, 1));
 // console.log(num(136, 4));
+//107
+// function num(arr) {
+//   let result = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[i] % arr[j] === 0 || arr[j] % arr[i] === 0) {
+//         result++;
+//       }
+//     }
+//   }
+//   return result;
+// }
+// console.log(num([1, 2, 3]));
+// console.log(num([2, 4, 6]));
+// console.log(num([2, 4, 16]));
