@@ -1212,3 +1212,18 @@
 // console.log(num(123));
 // console.log(num(156));
 // console.log(num(156));
+//106
+// function num(num, d) {
+//   if (d === 1) {
+//     return num;
+//   } else {
+//     while (num % d === 0) {
+//       num /= d;
+//     }
+//     return num;
+//   }
+// }
+// console.log(num(-12, 2));
+// console.log(num(13, 2));
+// console.log(num(13, 1));
+// console.log(num(136, 4));
