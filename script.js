@@ -1251,3 +1251,24 @@
 //   return result;
 // }
 // console.log(num([1, 2, 3], [1, 2, 3]));
+//109
+// function num(prime) {
+//   let pr1 = [];
+//   let pr2 = [];
+//   for (let i = 0; i <= prime; i++) {
+//     pr2.push(true);
+//   }
+//   for (let i = 2; i <= prime; i++) {
+//     if (pr2[i]) {
+//       pr1.push(i);
+//       for (let j = 1; i * j <= prime; j++) {
+//         console.log(i * j);
+//         pr2[i * j] = false;
+//       }
+//     }
+//   }
+//   return pr1;
+// }
+// console.log(num(5));
+// console.log(num(11));
+//110
