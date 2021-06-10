@@ -1242,3 +1242,12 @@
 // console.log(num([1, 2, 3]));
 // console.log(num([2, 4, 6]));
 // console.log(num([2, 4, 16]));
+//108
+// function num(v1, v2) {
+//   let result = 0;
+//   for (let i = 0; i < 3; i++) {
+//     result += v1[i] * v2[i];
+//   }
+//   return result;
+// }
+// console.log(num([1, 2, 3], [1, 2, 3]));
