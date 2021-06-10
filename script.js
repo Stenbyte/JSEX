@@ -1272,3 +1272,14 @@
 // console.log(num(5));
 // console.log(num(11));
 //110
+// function num(arr, d) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0 && arr[i] < d) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result;
+// }
+// console.log(num([1, 2, 3, 4, 5, 6, 7, 8], 5));
+// console.log(num([1, 3, 4, 5, 6, 7, 8], 6));
