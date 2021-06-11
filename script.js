@@ -1380,3 +1380,11 @@
 //     [0, 0, 1],
 //   ])
 // );
+//118
+// function num(arr, i) {
+//   if (arr.includes(i)) {
+//     return i;
+//   } else return "number is not in the range";
+// }
+// console.log(num([1, 2, 3, 4, 5], 4));
+// console.log(num([1, 2, 3, 4, 5], 7));
