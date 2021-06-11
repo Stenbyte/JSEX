@@ -1349,3 +1349,16 @@
 //     [0, 0, 3],
 //   ])
 // );
+//116
+// function disible(str) {
+//   let result = [];
+//   for (let i = 0; i < 10; i++) {
+//     let number = Number(str.replace("#", i));
+//     if (number % 3 === 0) {
+//       result.push(number);
+//     }
+//   }
+//   return result;
+// }
+// console.log(disible("2#0"));
+// console.log(disible("4#2"));
