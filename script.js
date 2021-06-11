@@ -1388,3 +1388,17 @@
 // }
 // console.log(num([1, 2, 3, 4, 5], 4));
 // console.log(num([1, 2, 3, 4, 5], 7));
+//119
+// function num(str) {
+//   let num = String(str);
+//   let result = true;
+//   for (let i = 1; i <= num.length; i++) {
+//     if (num[i] >= num[i + 1]) {
+//       result = false;
+//     }
+//   }
+//   return result;
+// }
+// console.log(num(123));
+// console.log(num(1223));
+//120
