@@ -1296,3 +1296,16 @@
 // console.log(num(1, 2, 3));
 // console.log(num(1, 3, 3));
 // console.log(num(3, 2, 3));
+//112
+// function num(n) {
+//   let result = 0;
+//   for (let i = 5; i <= n; i += 5) {
+//     if (i % 5 === 0) {
+//       result++;
+//     }
+//   }
+//   return result;
+// }
+// console.log(num(5));
+// console.log(num(9));
+// console.log(num(11));
