@@ -1321,3 +1321,12 @@
 // }
 // console.log(num(8));
 // console.log(num(15));
+//114
+// function str(str) {
+//   let firstChar = str[0];
+//   let secondChar = str[str.length - 1];
+//   return /[A-Z]/.test(firstChar) && secondChar === ".";
+// }
+// console.log(str("This is awesome."));
+// console.log(str("This is awesome!"));
+// console.log(str("sThis is awesome!"));
