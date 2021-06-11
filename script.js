@@ -1283,3 +1283,16 @@
 // }
 // console.log(num([1, 2, 3, 4, 5, 6, 7, 8], 5));
 // console.log(num([1, 3, 4, 5, 6, 7, 8], 6));
+//111
+// function num(x, y, z) {
+//   if (x !== y && y !== z && x !== z) {
+//     return "All unequal";
+//   }
+//   if (x === y) return z;
+//   if (y === z) return x;
+//   if (x === z) return y;
+// }
+// console.log(num(1, 1, 3));
+// console.log(num(1, 2, 3));
+// console.log(num(1, 3, 3));
+// console.log(num(3, 2, 3));
