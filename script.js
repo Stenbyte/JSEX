@@ -1309,3 +1309,15 @@
 // console.log(num(5));
 // console.log(num(9));
 // console.log(num(11));
+//113
+// function num(num) {
+//   let sum = 0;
+//   while (num > 0) {
+//     sum += num;
+
+//     num = Math.floor(num / 2);
+//   }
+//   return sum;
+// }
+// console.log(num(8));
+// console.log(num(15));
