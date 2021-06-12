@@ -1402,3 +1402,12 @@
 // console.log(num(123));
 // console.log(num(1223));
 //120
+// function circle(a, b, x, y, r) {
+//   let distance = Math.floor(Math.sqrt((x - a) ** 2 + (y - b) ** 2));
+//   console.log(distance);
+//   if (distance < r) {
+//     return true;
+//   } else return false;
+// }
+// console.log(circle(0, 0, 2, 4, 6));
+// console.log(circle(0, 0, 6, 8, 6));
