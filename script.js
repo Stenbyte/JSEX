@@ -1411,3 +1411,22 @@
 // }
 // console.log(circle(0, 0, 2, 4, 6));
 // console.log(circle(0, 0, 6, 8, 6));
+//121
+// function lower(matrix) {
+//   for (let i = 0; i < matrix.length; i++) {
+//     for (let j = 0; j < matrix[0].length; j++) {
+//       console.log(matrix[i], matrix[j]);
+//       if (j > i && matrix[i][j] !== 0) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// }
+// console.log(
+//   lower([
+//     [1, , 0],
+//     [2, 0, 0],
+//     [0, 3, 3],
+//   ])
+// );
