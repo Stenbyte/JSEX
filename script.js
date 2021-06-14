@@ -1430,3 +1430,15 @@
 //     [0, 3, 3],
 //   ])
 // );
+//122
+// function num(arr) {
+//   let sumD = arr[1] - arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (sumD * (arr[i + 1] - arr[i]) <= 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(num([1, 2, 3]));
+// console.log(num([1, 2, 2]));
