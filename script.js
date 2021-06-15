@@ -1442,3 +1442,14 @@
 // }
 // console.log(num([1, 2, 3]));
 // console.log(num([1, 2, 2]));
+//123
+// function num(arr, n) {
+//   for (let i = 0; i < n; i++) {
+//     if (!arr.includes(i + 1)) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(num([1, 2, 3, 4, 5], 5));
+// console.log(num([1, 2, 3, 5], 5));
