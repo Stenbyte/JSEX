@@ -1453,3 +1453,10 @@
 // }
 // console.log(num([1, 2, 3, 4, 5], 5));
 // console.log(num([1, 2, 3, 5], 5));
+//124
+// function nor(a, b) {
+//   return !a && !b;
+// }
+// console.log(nor(true, false));
+// console.log(nor(false, false));
+// console.log(nor(true, true));
