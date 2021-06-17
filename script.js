@@ -1488,3 +1488,8 @@
 // }
 // console.log(num([20, 40, 200]));
 //127
+// function num(n) {
+//   return parseInt(n.toString(2).split("").reverse().join(""), 2);
+// }
+// console.log(num(56));
+// console.log(num(234));
