@@ -1493,3 +1493,11 @@
 // }
 // console.log(num(56));
 // console.log(num(234));
+//128
+// function num(n) {
+//   while (n % 10) {
+//     n++;
+//   }
+//   return n;
+// }
+// console.log(num(56));
