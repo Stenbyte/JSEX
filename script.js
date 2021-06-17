@@ -1460,3 +1460,20 @@
 // console.log(nor(true, false));
 // console.log(nor(false, false));
 // console.log(nor(true, true));
+//125
+// function str(arr) {
+//   let max = arr[0].length;
+//   let s = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     let st = arr[i].length;
+//     // console.log(st);
+//     if (st > max) {
+//       s = arr[i];
+//       max = st;
+//       console.log(max);
+//     }
+//   }
+//   return s;
+// }
+// console.log(str(["aa", "a", "aaa"]));
+// console.log(str(["aa", "a", "aaaa"]));
