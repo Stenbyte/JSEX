@@ -1477,3 +1477,14 @@
 // }
 // console.log(str(["aa", "a", "aaa"]));
 // console.log(str(["aa", "a", "aaaa"]));
+//126
+// function num(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     arr.sort((a, b) => b - a);
+//     if (arr[i] % 2 === 0) {
+//       return arr[i];
+//     }
+//   }
+// }
+// console.log(num([20, 40, 200]));
+//127
