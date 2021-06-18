@@ -1520,3 +1520,18 @@
 // }
 // // console.log(num(3));
 // console.log(num(19));
+//130
+// function num(num) {
+//   let str = num.toString().split("");
+//   console.log(str.map((item) => parseInt(item, 10)));
+//   let sum = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] % 2 === 0) {
+//       sum++;
+//     }
+//   }
+//   return sum;
+// }
+// console.log(num(123));
+// console.log(num(1230));
+// console.log(num(12030));
