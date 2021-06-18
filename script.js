@@ -1535,3 +1535,17 @@
 // console.log(num(123));
 // console.log(num(1230));
 // console.log(num(12030));
+//131
+// function num(num) {
+//   let sum = [];
+//   for (let i = 0; i < num.length; i++) {
+//     // console.log(num[i]);
+//     sum[i] = 0;
+//     console.log(sum);
+//     for (let j = 0; j < i + 1; j++) {
+//       sum[i] += num[j];
+//     }
+//   }
+//   return sum;
+// }
+// console.log(num([1, 2, 3, 4, 5]), "F");
