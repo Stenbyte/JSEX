@@ -1501,3 +1501,22 @@
 //   return n;
 // }
 // console.log(num(56));
+//129
+// function num(n) {
+//   for (let i = n + 1; ; i++) {
+//     let isPrime = true;
+//     for (let d = 2; d * d <= i; d++) {
+//       console.log(i);
+//       console.log(d);
+//       if (i % d === 0) {
+//         isPrime = false;
+//         break;
+//       }
+//     }
+//     if (isPrime) {
+//       return i;
+//     }
+//   }
+// }
+// // console.log(num(3));
+// console.log(num(19));
