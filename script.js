@@ -1549,3 +1549,138 @@
 //   return sum;
 // }
 // console.log(num([1, 2, 3, 4, 5]), "F");
+// let data = {
+//   meta_description: "meta description",
+//   brief_description: "brief description",
+//   specialty: "work",
+// };
+// console.log(data);
+// let obj = Object.entries(data).map((ob) => ob[0].split("_").join(" "));
+// function str(str) {
+//   let letter = { A: "T", T: "A", G: "C", C: "G" };
+//   let arr = [];
+//   for (let i = 0; i < str.length; i++) {
+//     arr[i] = letter[str[i]];
+//   }
+//   return arr.join("");
+// }
+
+// console.log(str("ATTGC"));
+// function str(str) {
+//   let count = {};
+//   return str.split("").forEach((s) => {
+//     console.log(count[s]);
+//   });
+// }
+
+// console.log(str("aba"));
+
+// function str(arr) {
+//   let ar = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].length === 4) {
+//       ar.push(arr[i]);
+//     }
+//   }
+
+//   return ar;
+// }
+
+// console.log(str(["Ryan", "Kieran", "Mark"]));
+// function num(arr) {
+//   let ar = arr.filter((x) => x % 2).sort((a, b) => a - b);
+
+//   return arr.map((x) => (x % 2 === 0 ? x : ar.shift()));
+// }
+
+// console.log(num([5, 8, 6, 3, 4, 10]));
+// function str(str) {
+//   let arr = [];
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === " ") continue;
+//     arr.push(
+//       Array.from(str, (c, h) => (h === i ? c.toUpperCase() : c)).join("")
+//     );
+//   }
+//   return arr;
+// }
+// console.log(str("hello"));
+// console.log(str("two words"));
+// function arithmetic(a, b, operator) {
+
+//   switch (operator) {
+//     case "add":
+//       return a + b;
+//     case "subtract":
+//       return a - b;
+
+//     case "multiply":
+//       return a * b;
+
+//     case "divide":
+//       return a / b;
+//     default:
+//       console.log("nope");
+//   }
+// }
+// console.log(arithmetic(1, 3, "add"));
+// function str(arr) {
+//     return arr.filter((e) => typeof e !== 'string');
+
+// }
+// console.log(str([1, 2, "a", "b", "3"]));
+// function lettersOnly(letterOrElse) {
+//   return letterOrElse.toUpperCase() !== letterOrElse.toLowerCase();
+// }
+// console.log(lettersOnly("."));
+// function letter(l) {
+//   return l.toLowerCase().charCodeAt(0) - "a".charCodeAt(0) + 1;
+// }
+// console.log(letter("T"));
+// function trans(str) {
+//   return Array.from(str).filter(lettersOnly).map(letter).join(" ");
+// }
+// console.log(trans("The sunset sets at twelve o' clock."));
+// function str(arr) {
+//   let num = arr.sort((a, b) => a - b);
+//   let f = num[0];
+//   let s = num[1];
+//   let sum = f + s;
+//   console.log(num);
+//   return sum;
+// }
+// console.log(str([19, 5, 42, 2, 77]));
+// function str(arr) {
+//   return arr.length === 1
+//     ? `${arr[0]} like this`
+//     : arr.length === 2
+//     ? `${arr[0]} and ${arr[1]} like this`
+//     : arr.length === 3
+//     ? `${arr[0]}, ${arr[1]} and ${arr[2]} like this`
+//     : arr.length >= 4
+//     ? `${arr[0]}, ${arr[1]} and ${arr.slice(2).length} like this`
+//     : "no one likes this";
+// }
+
+// console.log(str(["Peter"]));
+// console.log(str([]));
+// console.log(str(["Peter", "Jack"]));
+// console.log(str(["Peter", "Jack", "Sten"]));
+// console.log(str(["Peter", "Jack", "Sten", "Iola"]));
+// console.log(str(["Peter", "Jack", "Sten", "Iola", "Peter", "Jack"]));
+// function str(str) {
+//   let s = str
+//     .split(";")
+//     .map((n) => n.split(":").reverse().join(":"))
+//     .sort()
+//     .map((n) => `(${n.split(":")[0]}, ${n.split(":")[1]})`.toUpperCase())
+//     .sort()
+//     .join("");
+//   return `'${s}'`;
+// }
+
+// console.log(
+//   str(
+//     "Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"
+//   )
+// );
