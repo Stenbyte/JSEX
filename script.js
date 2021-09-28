@@ -1707,3 +1707,15 @@
 // console.log(str("www.xakep.ru"));
 // console.log(str("https://youtube.com"));
 // console.log(str("youtube.com"));
+// function str(size) {
+//   let table = [];
+//   for (let i = 1; i <= size; i++) {
+//     const numbers = Array(size)
+//       .fill(1)
+//       .map((el, index) => (el + index) * i);
+//     table.push(numbers);
+//   }
+//   return table;
+// }
+
+// console.log(str(3));
