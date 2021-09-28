@@ -1684,3 +1684,26 @@
 //     "Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"
 //   )
 // );
+// function str(str) {
+//   let s =
+//     str.startsWith("http://www") ||
+//     str.startsWith("https://www") ||
+//     str.startsWith("www")
+//       ? str.split(".")[1]
+//       : str.startsWith("http://") || str.startsWith("https://")
+//       ? str.split("/")[2].split(".")[0]
+//       : str.split(".")[0];
+
+//   let a = str.split();
+//   //   console.log(a, "a");
+//   return s;
+// }
+// console.log(str("http://github.com/carbonfive/raygun"));
+// console.log(str("http://githubhghgjhkljk.com/carbonfive/raygun"));
+// console.log(str("http://www.github.com/carbonfive/raygun"));
+// console.log(str("https://www.github-z.com/carbonfive/raygun"));
+// console.log(str("http://google.com"));
+// console.log(str("http://google.co.jp"));
+// console.log(str("www.xakep.ru"));
+// console.log(str("https://youtube.com"));
+// console.log(str("youtube.com"));
