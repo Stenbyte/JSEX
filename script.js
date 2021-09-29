@@ -1736,3 +1736,16 @@
 // console.log(str([-2, 1, -3]));
 // console.log(str([4, -1, 2, 1]));
 // console.log(str([]));
+// function str(str) {
+//   let s = str
+//     .split(/[uoiea]/)
+//     .map((s) => s.split("").reduce((acc, c) => acc + (c.charCodeAt(0) - 96), 0))
+//     .sort((a, b) => b - a)[0];
+//   console.log(s);
+//   return str
+//     .split(/[uoiea]/)
+//     .map((s) => s.split("").reduce((acc, c) => acc + (c.charCodeAt(0) - 96), 0))
+//     .sort((a, b) => b - a)[0];
+// }
+// console.log(str("zodiacs"));
+// console.log(str("strength"));
