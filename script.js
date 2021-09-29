@@ -1749,3 +1749,14 @@
 // }
 // console.log(str("zodiacs"));
 // console.log(str("strength"));
+// function str(arr, sum) {
+//   for (let i = 0; i <= arr.length; i++) {
+//     for (let j = 1; j <= arr.length; j++) {
+//       console.log(arr[i] + arr[j]);
+//       if (arr[i] + arr[j] === sum) {
+//         return [i, j];
+//       }
+//     }
+//   }
+// }
+// console.log(str([1, 2, 3, 4], 4));
