@@ -1719,3 +1719,20 @@
 // }
 
 // console.log(str(3));
+// function str(arr) {
+//   let curSum = 0;
+//   let maxSum = 0;
+//   if (arr.length === 0) {
+//     return 0;
+//   } else {
+//     arr.forEach((a) => {
+//       curSum = Math.max(a, curSum + a);
+//       maxSum = Math.max(maxSum, curSum);
+//     });
+//     return maxSum;
+//   }
+// }
+// console.log(str([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+// console.log(str([-2, 1, -3]));
+// console.log(str([4, -1, 2, 1]));
+// console.log(str([]));
