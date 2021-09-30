@@ -1594,6 +1594,7 @@
 // }
 
 // console.log(num([5, 8, 6, 3, 4, 10]));
+// Mexican wave
 // function str(str) {
 //   let arr = [];
 //   for (let i = 0; i < str.length; i++) {
@@ -1760,3 +1761,7 @@
 //   }
 // }
 // console.log(str([1, 2, 3, 4], 4));
+function str(str) {
+  console.log(str.split(".").reduce((el, c) => el * 256 + +c));
+}
+console.log(str("10.1"));
