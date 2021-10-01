@@ -1766,34 +1766,11 @@
 // }
 // console.log(str("10.1"));
 // function str(str) {
-//   let regex = /\d/g;
-//   let m = str.match(regex)?.join("").split(",");
-//   if (m === undefined) {
-//     let s = str.substr() + 1;
-
-//     return s;
-//   }
-//   const m1 = +m[0] + 1;
-//   console.log(+m, "MMMM");
-//   if (+m > 10) {
-//     let ee = +m > 100 ? str.slice(0, -3) + m1 : str.slice(0, -2) + m1;
-//     // let e = str.slice(0, -2) + m1;
-//     return ee;
-//   }
-//   if (+m <= 10) {
-//     let t = str.slice(0, -1) + m1;
-//     return t;
-//   }
-//   if (+m[0] > 999) {
-//     let t = str.slice();
-//     console.log(t, "TTTT");
-//   }
 //   console.log(str.match(/(\d*)$/));
-//   return str.replace(/(\d*)$/, (t) => {
-//     console.log(+t);
-//     (+t + 1).toString().padStart(t.length, 0);
-//   });
-
+//   return str.replace(/(\d*)$/, (t) =>
+//     (+t + 1).toString().padStart(t.length, 0)
+//   );
+// }
 // console.log(str("foo23"));
 // console.log(str("foo"));
 // console.log(str("foo00"));
@@ -1804,3 +1781,8 @@
 // console.log(str("foo99"));
 // console.log(str("foo199"));
 // console.log(str("foo1000"));
+// function num(str) {
+//   console.log(str.match(/s/gi));
+//   return str.replace(/s/gi, (t) => (t + "d").padStart(3, 0));
+// }
+// console.log(num("Sten it is Christmas"));
