@@ -1786,3 +1786,40 @@
 //   return str.replace(/s/gi, (t) => (t + "d").padStart(3, 0));
 // }
 // console.log(num("Sten it is Christmas"));
+// function chained(functions) {
+//   return function (input) {
+//     for (let i = 0; i < functions.length; i++) {
+//       input = functions[i](input);
+//     }
+
+//     return input;
+//   };
+// }
+// const chained = (f) => (i) => f.reduce((r, c) => c(r), i);
+// function chained(functions) {
+//   return function (x) {
+//     return functions.reduce(function (acc, curr) {
+//       console.log(curr(acc));
+//       return curr(acc);
+//     }, x);
+//   };
+// }
+// const chained = (functions) => (arg) => functions.reduce((x, y) => y(x), arg);
+
+// function f1(x) {
+//   console.log(x * 2);
+//   return x * 2;
+// }
+// function f2(x) {
+//   console.log(x + 2);
+//   return x + 2;
+// }
+// function f3(x) {
+//   console.log(Math.pow(x, 2));
+//   return Math.pow(x, 2);
+// // }
+// console.log(chained([f1, f2, f3], 0, 4));
+// console.log(chained([f1, f2, f3]), 2, 36);
+// console.log(chained([f1, f2, f3]), 2, 26);
+// chained([f1, f2, f3])(2), 36;
+// chained([f3, f2, f1])(2), 12;
