@@ -1789,6 +1789,7 @@
 // function chained(functions) {
 //   return function (input) {
 //     for (let i = 0; i < functions.length; i++) {
+//       console.log(functions[i](input));
 //       input = functions[i](input);
 //     }
 
@@ -1817,7 +1818,7 @@
 // function f3(x) {
 //   console.log(Math.pow(x, 2));
 //   return Math.pow(x, 2);
-// // }
+// }
 // console.log(chained([f1, f2, f3], 0, 4));
 // console.log(chained([f1, f2, f3]), 2, 36);
 // console.log(chained([f1, f2, f3]), 2, 26);
