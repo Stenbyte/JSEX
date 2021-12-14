@@ -1824,3 +1824,37 @@
 // console.log(chained([f1, f2, f3]), 2, 26);
 // chained([f1, f2, f3])(2), 36;
 // chained([f3, f2, f1])(2), 12;
+// function encrypt(s, n) {
+//   if (!s || n < 0) return s;
+//   let ans = "";
+//   while (n--) {
+//     for (let i = 1; i < s.length; i += 2) {
+//       ans += s[i];
+//     }
+//     for (let i = 0; i < s.length; i += 2) {
+//       ans += s[i];
+//     }
+//     s = ans;
+//   }
+//   return s;
+// }
+
+// encrypt("012345", 3);
+
+// function decrypt(string, n) {
+//   if (!string || n <= 0) return string;
+//   const ans = new Array(string.length);
+//   while (n--) {
+//     let j = 0;
+//     for (let i = 1; i < ans.length; i += 2) {
+//       ans[i] = string[j++];
+//       console.log(ans[i]);
+//     }
+//     for (let i = 0; i < ans.length; i += 2) {
+//       ans[i] = string[j++];
+//     }
+//     string = ans.join("");
+//   }
+//   console.log(string);
+// }
+// decrypt("135024", 1);
