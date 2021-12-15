@@ -44,34 +44,34 @@
 //   return arr;
 // }
 ////
-function upArray(arr) {
-  if (typeof arr === "undefined" || arr === null || arr.length === 0) {
-    return null;
-  }
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < 0 || arr[i] > 9 || typeof arr[i] !== "number") {
-      return null;
-    }
-  }
-  for (let i = arr.length - 1; i > -1; i--) {
-    if (arr[i] !== 9) {
-      arr[i] = arr[i] + 1;
-      break;
-    } else {
-      arr[i] = 0;
-    }
-    if (i === 0) {
-      arr.unshift(1);
-    }
-  }
-  return arr;
-}
-upArray([2, 3, 4, 8, 9]);
-upArray([9]);
-upArray([-9, 1, 2]);
-upArray([9, 11, 2]);
-upArray([]);
-upArray();
+// function upArray(arr) {
+//   if (typeof arr === "undefined" || arr === null || arr.length === 0) {
+//     return null;
+//   }
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0 || arr[i] > 9 || typeof arr[i] !== "number") {
+//       return null;
+//     }
+//   }
+//   for (let i = arr.length - 1; i > -1; i--) {
+//     if (arr[i] !== 9) {
+//       arr[i] = arr[i] + 1;
+//       break;
+//     } else {
+//       arr[i] = 0;
+//     }
+//     if (i === 0) {
+//       arr.unshift(1);
+//     }
+//   }
+//   return arr;
+// }
+// upArray([2, 3, 4, 8, 9]);
+// upArray([9]);
+// upArray([-9, 1, 2]);
+// upArray([9, 11, 2]);
+// upArray([]);
+// upArray();
 // upArray([
 //   2,
 //   2,
