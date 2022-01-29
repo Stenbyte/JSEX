@@ -102,83 +102,23 @@
 //   8,
 //   7,
 // ]);
-// console.log(
-//   upArray([
-//     2,
-//     2,
-//     3,
-//     3,
-//     9,
-//     6,
-//     1,
-//     2,
-//     0,
-//     8,
-//     7,
-//     8,
-//     6,
-//     1,
-//     5,
-//     9,
-//     6,
-//     2,
-//     3,
-//     7,
-//     7,
-//     3,
-//     6,
-//     1,
-//     2,
-//     0,
-//     8,
-//     7,
-//   ])
-// );
-// upArray([2, 3, 9]);
-// upArray([2, 3, -9]);
-// upArray([2, 3, 10]);
-// upArray([]);
-// upArray([
-//   3,
-//   1,
-//   4,
-//   1,
-//   8,
-//   8,
-//   6,
-//   2,
-//   3,
-//   7,
-//   7,
-//   3,
-//   6,
-//   1,
-//   2,
-//   0,
-//   8,
-//   7,
-//   8,
-//   6,
-//   1,
-//   5,
-//   9,
-//   5,
-//   1,
-//   5,
-//   7,
-//   0,
-//   5,
-//   8,
-//   1,
-//   1,
-//   9,
-//   9,
-//   8,
-//   6,
-//   6,
-//   1,
-//   4,
-//   3,
-//   8,
-//   9,
-// ]);
+//
+// function isIsogram(str) {
+//   const regex = /[A-Z]/g;
+//   if (str.length === 0) {
+//     return true;
+//   }
+//   let s = str.toLowerCase();
+//   for (let i = 0; i < s.length; i++) {
+//     if (s.indexOf(s[i]) !== s.lastIndexOf(s[i])) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(isIsogram("Dermatoglyphics"));
+// console.log(isIsogram("isogram"));
+// console.log(isIsogram("aba"));
+// console.log(isIsogram("moOse"));
+// console.log(isIsogram("isIsogram"));
