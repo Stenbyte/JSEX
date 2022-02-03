@@ -122,3 +122,14 @@
 // console.log(isIsogram("aba"));
 // console.log(isIsogram("moOse"));
 // console.log(isIsogram("isIsogram"));
+// function Square(num) {
+//   const arr = String(num);
+//   const arr1 = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     arr1.push(arr[i] ** 2);
+//   }
+
+//   return +arr1.join("");
+// }
+
+// console.log(Square(2323));
