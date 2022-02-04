@@ -139,3 +139,18 @@
 // }
 
 // console.log(small([78, 56, 232, 12, 8]));
+//7k
+// function nbYear(p0, percent, aug, p) {
+//   // 1000 + 1000 * 0.02 + 50 => 1070
+//   let pop = p0;
+//   let year = 0;
+//   while (pop < p) {
+//     let perc = pop * (percent / 100);
+//     pop = pop + perc + aug;
+//     year++;
+//   }
+//   return year;
+// }
+// console.log(nbYear(1500, 5, 100, 5000));
+// console.log(nbYear(1500000, 2.5, 10000, 2000000));
+// console.log(nbYear(1500000, 0.25, 1000, 2000000));
