@@ -154,3 +154,11 @@
 // console.log(nbYear(1500, 5, 100, 5000));
 // console.log(nbYear(1500000, 2.5, 10000, 2000000));
 // console.log(nbYear(1500000, 0.25, 1000, 2000000));
+//7k
+// function longest(s1, s2) {
+
+//   return Array.from(new Set(s1 + s2))
+//     .sort()
+//     .join("");
+// }
+// console.log(longest("aretheyhere", "yestheyarehere"));
