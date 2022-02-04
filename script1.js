@@ -133,3 +133,9 @@
 // }
 
 // console.log(Square(2323));
+//8k
+// function small(arg) {
+//   return Math.min(...arg);
+// }
+
+// console.log(small([78, 56, 232, 12, 8]));
