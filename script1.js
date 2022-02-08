@@ -252,3 +252,18 @@ newGame.addEventListener("click", function () {
   document.getElementById(`total-1`).textContent = 0;
 });
  */
+/* function reverseWords(str) {
+
+  const words = str.split(" ");
+  const newWord = [];
+  for (let i = 0; i < words.length; i++) {
+    newWord.push(words[i].split("").reverse().join(""));
+  }
+  return newWord.join(" ");
+}
+
+console.log(reverseWords("apple"));
+console.log(reverseWords("The quick brown"));
+console.log(reverseWords("The  quick  brown"));
+console.log(reverseWords("a b c d"));
+console.log(reverseWords("a b c d")); */
