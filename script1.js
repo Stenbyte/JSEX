@@ -267,3 +267,15 @@ console.log(reverseWords("The quick brown"));
 console.log(reverseWords("The  quick  brown"));
 console.log(reverseWords("a b c d"));
 console.log(reverseWords("a b c d")); */
+// function isPangram(string) {
+//   const sentence = string.toLowerCase();
+//   for (const char of "abcdefghijklmnopqrstuvwxyz") {
+//     console.log(char);
+//     if (!sentence.includes(char)) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPangram("Thisb is not a pangram"));
+// console.log(isPangram("The quick brown fox jumps over the lazy dog"));
