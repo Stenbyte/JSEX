@@ -279,3 +279,20 @@ console.log(reverseWords("a b c d")); */
 // }
 // console.log(isPangram("Thisb is not a pangram"));
 // console.log(isPangram("The quick brown fox jumps over the lazy dog"));
+/* function accum(s) {
+  // const arr = [];
+  // const arr1 = [];
+  // const str = s.toLowerCase();
+  // for (let i = 0; i < str.length; i++) {
+  //   arr.push(str[i].repeat(i + 1));
+  // }
+  // for (let j = 0; j < arr.length; j++) {
+  //   arr1.push(arr[j].substring(0, 1).toUpperCase() + arr[j].substring(1));
+  // }
+
+  // return arr1.join("-");
+  // return s.split("").map((c, i) => c.toUpperCase() + c.toLowerCase().repeat(i));
+} */
+
+// console.log(accum("abcd"));
+// console.log(accum("NyffsGeyylB"));
