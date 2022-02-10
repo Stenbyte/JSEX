@@ -300,3 +300,40 @@ console.log(reverseWords("a b c d")); */
 //   return String(n);
 // }
 // console.log(num(123));
+/* function rot13(message) {
+  //your code here
+  // a - 97 until m - 109,n - 110 to z - 122
+  // const arr = [];
+  // for (let i = 0; i < message.length; i++) {
+
+  //   const letter = message[i].charCodeAt();
+  //   if ((letter >= 97 && letter <= 109) || (letter >= 65 && letter <= 77)) {
+
+  //     arr.push(String.fromCharCode(message[i].charCodeAt() + 13));
+  //   }
+  //   if ((letter >= 110 && letter <= 122) || (letter >= 78 && letter <= 90)) {
+
+  //     arr.push(String.fromCharCode(message[i].charCodeAt() - 13));
+  //   }
+  // }
+
+  // return arr.join("");
+  // return message.replace(/[a-z]/gi, (letter) =>
+  //   String.fromCharCode(
+  //     letter.charCodeAt(0) + (letter.toLowerCase() <= "m" ? 13 : -13)
+  //   )
+  // );
+  return message.replace(/[a-z]/gi, (letter) => {
+    return String.fromCharCode(
+      letter.charCodeAt(0) + (letter.toLowerCase() <= "m" ? 13 : -13)
+    );
+  });
+}
+
+console.log(rot13("Test"));
+console.log(rot13("Nbc"));
+console.log(rot13("Zop"));
+console.log(rot13("Ruby is cool"));
+console.log(rot13("10+2 is twelve"));
+console.log(rot13("9x7l"));
+ */
