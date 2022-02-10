@@ -296,3 +296,7 @@ console.log(reverseWords("a b c d")); */
 
 // console.log(accum("abcd"));
 // console.log(accum("NyffsGeyylB"));
+// function num(n) {
+//   return String(n);
+// }
+// console.log(num(123));
